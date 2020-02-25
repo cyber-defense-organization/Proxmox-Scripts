@@ -22,5 +22,10 @@ do
         echo $beginid
         # qm snapshot vmid name of snapshot --description of snapshot --vmstate preserve
         qm snapshot $beginid "$snapname" --description "$description" --vmstate true
+        
+        echo $beginid done
         beginid=$(($beginid + 1))
+        echo ""
+        echo "starting $beginid"
+        echo ""
 done
