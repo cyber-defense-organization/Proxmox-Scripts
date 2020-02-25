@@ -20,35 +20,35 @@ then
 	echo "Starting clone.sh"
 	sleep 2
 	clear
-	./clone.sh
+	./code/clone.sh
 elif [ $input = "2" ]
 then
 	echo "Starting destroy.sh"
 	sleep 2
 	clear
-	./destroy.sh
+	./code/destroy.sh
 elif [ $input = "3" ]
 then
 	echo "Starting add_users.sh"
 	sleep 2
 	clear
-	./add_users.sh
+	./code/add_users.sh
 elif [ $input = "4" ]
 then
 	echo "Starting remove_users.sh"
 	sleep 2
 	clear
-	./remove_users.sh
+	./code/remove_users.sh
 elif [ $input = "5" ]
 then
 	echo "Starting group_add.sh"
 	sleep 2
 	clear
-	./group_add.sh
+	./code/group_add.sh
 elif [ $input = "6" ]
 then
 	echo "Starting snapshot_script.sh"
 	sleep 2
 	clear
-	./snapshot_script.sh
+	./code/snapshot_script.sh
 fi
